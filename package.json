@@ -4,11 +4,12 @@
   "description": "RemiixInc's Website.",
   "main": "eleventy",
   "scripts": {
-    "start": "eleventy"
+    "start": "eleventy && http-server _site -p 3000"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "sync-request": "^6.1.0"
+    "sync-request": "^6.1.0",
+    "http-server": "^0.12.3"
   },
   "engines": {
     "node": "12.x"
