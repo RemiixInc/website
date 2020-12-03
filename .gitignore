@@ -2,3 +2,4 @@ _site
 .env
 .glitch-assets
 shrinkwrap.yaml
+package-lock.json
