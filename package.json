@@ -1,14 +1,13 @@
 {
   "name": "RemiixInc",
   "version": "0.0.1",
-  "description": "RemiixInc's Website",
+  "description": "RemiixInc's Website.",
   "main": "eleventy",
   "scripts": {
-    "start": "eleventy && http-server _site -p 3000"
+    "start": "eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "http-server": "^0.12.3",
     "sync-request": "^6.1.0"
   },
   "engines": {
