@@ -8,6 +8,7 @@ fetch("https://api.factmaven.com/xml-to-json/?xml=https://dev.to/feed/remiix")
   .then(res => res.json())
   .then(json => {
     var posts = json.rss.channel.item;
+    if (!posts.length) posts = [posts];
     var element = document.getElementById("posts");
     var i;
     for (i = 0; i < posts.length; i++) {
