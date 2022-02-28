@@ -4,7 +4,7 @@ var emojis = emojisString.split(" ");
 var emoji = emojis[Math.floor(Math.random() * emojis.length)];
 document.getElementById("emoji").innerText = emoji;
 
-fetch("https://api.factmaven.com/xml-to-json/?xml=https://dev.to/feed/remiix")
+/*fetch("https://api.factmaven.com/xml-to-json/?xml=https://dev.to/feed/remiix")
   .then(res => res.json())
   .then(json => {
     var posts = json.rss.channel.item;
@@ -38,3 +38,4 @@ function parseTags(tags) {
   }
   return result;
 }
+*/

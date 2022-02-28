@@ -1,14 +1,14 @@
 body {
-  --block-text-color: #222;
-  --block-background-color: #fff;
-  --block-accent-color: #3a5ec5;
-  --block-shadow-color: #444;
+  --block-text-color: #222222;
+  --block-background-color: #ffffff;
+  --block-accent-color: #8218fe;
+  --block-shadow-color: #444444;
 }
 .block {
   display: block;
   color: var(--block-text-color);
   border: 3px solid var(--block-text-color);
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 4px 8px;
   background: var(--block-background-color);
   font-weight: 700;
@@ -36,7 +36,7 @@ body {
   content: "";
   background: var(--block-background-color);
   border: 3px solid var(--block-text-color);
-  border-radius: 3px;
+  border-radius: 5px;
   box-sizing: border-box;
   position: absolute;
   top: -3px;
@@ -55,7 +55,7 @@ body {
   box-sizing: border-box;
   background: var(--block-shadow-color);
   border: 3px solid var(--block-text-color);
-  border-radius: 3px;
+  border-radius: 5px;
   height: calc(100% + 6px);
   width: calc(100% + 6px);
   position: absolute;
