@@ -36,25 +36,21 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/inter.min.css"
-    />
-    <link
-      rel="preload"
-      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/inter.min.css"
-      as="style"
-      crossorigin
     />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/blocks.css" />
     <script src="/script.js" defer></script>
+    <script src="/xml.js"></script>
   </head>
   <body>
     <header>
       <span>Hi, I'm</span>
       <h1>Kieran</h1>
-      <!--<p>web dev or smth</p>-->
       <a
         href="https://glitch.com/@Remiix"
         target="_blank"
@@ -132,9 +128,7 @@
       </a>
     </header>
     <main>
-      <h2>
-        Projects
-      </h2>
+      <h2>Projects</h2>
       <div class="projects">
         <div class="card fixed block scape">
           <button class="block fixed inline" id="scape">Scape</button>
@@ -210,17 +204,11 @@
                 ></path>
               </svg></button
           ></a>
-          <p>
-            ⌚ Elegant and simple new tab page for Chrome and Firefox.
-          </p>
+          <p>⌚&nbsp; Elegant and simple new tab page for Chrome and Firefox.</p>
         </div>
         <div class="card fixed block statsify">
           <button class="block fixed inline" id="statsify">Statsify</button>
-          <a
-            href="https://statsify.rmxgrp.dev"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://statsify.rmxgrp.dev" target="_blank" rel="noopener">
             <button class="accent block inline">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -268,14 +256,10 @@
                 ></path>
               </svg></button
           ></a>
-          <p>
-            🎶 A simple and easy way to view your Spotify listening stats.
-          </p>
+          <p>🎶&nbsp; A simple and easy way to view your Spotify listening stats.</p>
         </div>
         <div class="card fixed block whyther">
-          <button class="block fixed inline" id="whyther">
-            Whyther
-          </button>
+          <button class="block fixed inline" id="whyther">Whyther</button>
           <a href="https://whyther.rmxgrp.dev" target="_blank" rel="noopener">
             <button class="accent block inline">
               <svg
@@ -299,9 +283,7 @@
                 <line x1="10" y1="14" x2="21" y2="3"></line>
               </svg></button
           ></a>
-          <p>
-            ⛅ A simple and accurate weather web app.
-          </p>
+          <p>⛅&nbsp; A simple and accurate weather web app.</p>
         </div>
         <div class="card fixed block tramtrace">
           <button class="block fixed inline" id="tramtrace">TramTrace</button>
@@ -328,13 +310,17 @@
                 <line x1="10" y1="14" x2="21" y2="3"></line>
               </svg></button
           ></a>
-          <p>
-            📑 A Victorian tram timetable viewer and more in a PWA.
-          </p>
+          <p>📑&nbsp; A Victorian tram timetable viewer and more in a PWA.</p>
         </div>
         <div class="card fixed block">
-          <button class="block fixed inline" id="grapey-dictionary">Grapey Dictionary</button>
-          <a href="https://dictionary.rmxgrp.dev" target="_blank" rel="noopener">
+          <button class="block fixed inline" id="grapey-dictionary">
+            Grapey Dictionary
+          </button>
+          <a
+            href="https://dictionary.rmxgrp.dev"
+            target="_blank"
+            rel="noopener"
+          >
             <button class="accent block inline">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -357,9 +343,7 @@
                 <line x1="10" y1="14" x2="21" y2="3"></line>
               </svg></button
           ></a>
-          <p>
-            📚 A simple dictionary client.
-          </p>
+          <p>📚&nbsp; A very simple dictionary client.</p>
         </div>
         <div class="card fixed block">
           <button class="block fixed inline" id="lopixel">LoPixel</button>
@@ -386,9 +370,7 @@
                 <line x1="10" y1="14" x2="21" y2="3"></line>
               </svg></button
           ></a>
-          <p>
-            🌲 Track how much time you spend on Hypixel.
-          </p>
+          <p>🌲&nbsp; Track how much time you spend on Hypixel.</p>
         </div>
         <div class="card fixed block">
           <button class="block fixed inline" id="ytdl">YT Downloader</button>
@@ -439,9 +421,7 @@
                 <polyline points="8 6 2 12 8 18"></polyline>
               </svg></button
           ></a>
-          <p>
-            📺 Simple, bloat-free and fast YouTube video downloader.
-          </p>
+          <p>📺&nbsp; Simple, bloat-free and fast YouTube video downloader.</p>
         </div>
         <div class="card fixed block">
           <button class="block fixed inline" id="random-page">
@@ -495,12 +475,12 @@
               </svg></button
           ></a>
           <p>
-            <span id="emoji">🔁</span> A website that generates random things
+            <span id="emoji">🔁&nbsp;</span> A website that generates random things
             such as emojis.
           </p>
         </div>
       </div>
-      <!--<h2>
+      <h2>
         Blog Posts
       </h2>
       <div id="posts">
@@ -512,7 +492,7 @@
             </button></a
           ><button class="block inline fixed">Wed, 10 Mar 2021</button>
           <p class="description">
-            Sucks for them, they won't be able to read my blog posts...
+            Sucks for them, they won't be able to read my incredible blog posts...
             <a href="https://kavin.rocks" target="_blank" rel="noopener"
               >Read more</a
             >
@@ -540,7 +520,7 @@
           >
           <br /><br />
         </noscript>
-      </div>-->
+      </div>
     </main>
   </body>
 </html>

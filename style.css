@@ -65,25 +65,36 @@ button {
 .card {
   flex: 100%;
 }
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .card {
     flex: 40%;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
   .card {
     flex: 20%;
   }
 }
+.description {
+  color: white;
+}
 .tag {
-  color: #64707d;
+  transition-duration: 0.3s;
+  color: #c1c6cb;
   margin: 8px 6px 10px 6px;
 }
 .hash {
-  color: #c1c6cb;
+  padding: 0 3px;
+  color: #64707d;
 }
 .tag:hover {
-  color: black;
+  color: white;
+}
+.read {
+  transition-duration: 0.3s;
+}
+.read:hover {
+  color: skyblue;
 }
 .feather {
   width: 16px;
