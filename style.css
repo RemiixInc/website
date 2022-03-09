@@ -67,6 +67,7 @@ button {
   flex-wrap: wrap;
 }
 .card {
+  padding: 6px 12px !important;
   flex: 100%;
 }
 @media (min-width: 700px) {
