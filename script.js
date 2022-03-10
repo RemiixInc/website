@@ -4,7 +4,7 @@ var emojis = emojisString.split(" ");
 var emoji = emojis[Math.floor(Math.random() * emojis.length)];
 document.getElementById("emoji").innerHTML = emoji + "&nbsp;";
 
-fetch("https://dev.to/feed/remiix")
+fetch("https://dev.to/feed/rmx")
   .then(res => res.text())
   .then(xml => {
     const json = xmlToJson.parse(xml);
